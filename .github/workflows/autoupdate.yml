@@ -2,7 +2,10 @@ name: Auto Update
 
 on:
   schedule:
-    - cron: "30 17 * * *" 
+#    - cron: "30 17 * * *" 
+# BFP - turn off cron till we know what to do with it. 
+
+
 # This will trigger on all pushes to all branches.
 #  push: {}
   # Alternatively, you can only trigger if commits are pushed to certain branches, e.g.:

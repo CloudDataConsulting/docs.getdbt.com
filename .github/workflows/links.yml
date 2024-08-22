@@ -3,7 +3,8 @@ name: Docs Link Checker
 on:
   schedule:
     # Run every day at 12:00 UTC
-    - cron: '0 12 * * *'
+#    - cron: '0 12 * * *'
+# BFP - turn off cron till we know what to do with it. 
 
 jobs:
   markdown-link-check:
