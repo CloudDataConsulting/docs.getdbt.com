@@ -8,7 +8,8 @@ name: Repo Sync
 
 on:
   schedule:
-    - cron: '0 6,12,18 * * *' # Run at 6:00 AM, 12:00 PM, and 6:00 PM
+#    - cron: '0 6,12,18 * * *' # Run at 6:00 AM, 12:00 PM, and 6:00 PM
+# BFI - 8/22/2024 comment out the cron schedule. 
 
 jobs:
   repo-sync:
